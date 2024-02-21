@@ -1,4 +1,4 @@
-public class ConstructBinaryTreeFromPreorder {
+public class FindMaximum {
 
     // This will represent structure of every single node in a tree
     static class Node {
@@ -54,6 +54,5 @@ public class ConstructBinaryTreeFromPreorder {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         System.out.println(maximum(root));
-
     }
 }
